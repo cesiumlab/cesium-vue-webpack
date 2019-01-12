@@ -1,0 +1,7 @@
+
+.compass {
+    pointer-events: auto;
+    /* right: 0; */
+    overflow: hidden;
+    top: 10px;
+}
