@@ -5,8 +5,10 @@ var HtmlwebpackPlugin = require('html-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 // 这里可以指定Cesium的来源
-const CesiumDebugDir = 'C:/vtxf/time/2018/projects/n1805-cesium-gist/Source';
-const CesiumReleaseDir = 'C:/vtxf/time/2018/projects/n1805-cesium-gist/Build/Cesium';
+// const CesiumDebugDir = 'C:/vtxf/time/2018/projects/n1805-cesium-gist/Source';
+// const CesiumReleaseDir = 'C:/vtxf/time/2018/projects/n1805-cesium-gist/Build/Cesium';
+const CesiumDebugDir = 'node_modules/cesium/Build/Cesium';
+const CesiumReleaseDir = 'node_modules/cesium/Source';
 
 module.exports = {
     entry: {
