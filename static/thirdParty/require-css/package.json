@@ -1,0 +1,37 @@
+{
+  "_from": "require-css",
+  "_id": "require-css@0.1.10",
+  "_inBundle": false,
+  "_integrity": "sha1-8duMbPsq0qOnQJFmzGz5mw0/RQI=",
+  "_location": "/require-css",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "require-css",
+    "name": "require-css",
+    "escapedName": "require-css",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/require-css/download/require-css-0.1.10.tgz",
+  "_shasum": "f1db8c6cfb2ad2a3a7409166cc6cf99b0d3f4502",
+  "_spec": "require-css",
+  "_where": "C:\\vtxf\\time\\2018\\projects\\github\\vue-webpack\\vtxfProject1",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "require-css ===========",
+  "name": "require-css",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "version": "0.1.10",
+  "volo": {
+    "type": "directory"
+  }
+}
