@@ -8,9 +8,9 @@ if (typeof require === 'function') {
     require.config({
         baseUrl: '.',
         paths: {
-            domReady: '../static/thirdParty/requirejs-2.1.20/domReady',
-            rcss: '../static/thirdParty/require-css/css.min',
-            CesiumDir: '../static/Cesium',
+            domReady: './static/thirdParty/requirejs-2.1.20/domReady',
+            rcss: './static/thirdParty/require-css/css.min',
+            CesiumDir: './static/Cesium',
         },
         waitSeconds : 5000,
     });
