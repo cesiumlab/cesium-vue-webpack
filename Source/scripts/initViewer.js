@@ -70,8 +70,8 @@ function initViewer(container) {
     }
 
     // 加载谷歌中国卫星影像
-    // var googleImageryUrl = "http://mt1.google.cn/vt/lyrs=s&hl=zh-CN&x={x}&y={y}&z={z}&s=Gali"; // 不带标注
-    var googleImageryUrl = 'http://www.google.cn/maps/vt?lyrs=s,h&gl=CN&x={x}&y={y}&z={z}';
+    // var googleImageryUrl = "//mt1.google.cn/vt/lyrs=s&hl=zh-CN&x={x}&y={y}&z={z}&s=Gali"; // 不带标注
+    var googleImageryUrl = '//www.google.cn/maps/vt?lyrs=s,h&gl=CN&x={x}&y={y}&z={z}';
     var googleImageryProvider = new Cesium.UrlTemplateImageryProvider({url:googleImageryUrl})
     var googleImageryLayer = viewer.imageryLayers.addImageryProvider(googleImageryProvider);
     
