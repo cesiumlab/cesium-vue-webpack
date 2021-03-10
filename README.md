@@ -3,6 +3,8 @@
 # 此项目已废弃！
 # Cesium 1.63版本以后，不再使用AMD模式，而这个项目主要依赖AMD模式来加载，所以目前已不能使用。Cesium 1.62以下的版本仍可使用。
 
+# 需要最新版Cesium+Vue模板请移步这里： https://github.com/cesiumlab/cesium-vue3-ts-template
+
 vtxf 20190108
 
 ## 前言
